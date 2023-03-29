@@ -19,7 +19,16 @@ jobs:
     needs: print_hello_world_Ubuntu
     
     steps:
-    -name: Hello World 2!
-    -run: echo 'Hello World Windows'
+    -name: Hello World Windows!
+     run: echo 'Hello World Windows'
+    
+  print_hello_world_MacOS:
+    name: Hello World MacOS!
+    runs-on: macos-latest
+    needs: print_hello_world_Ubuntu
+    
+    steps:
+    -name: Hello World MacOS!
+     run: echo 'Hello World MacOS'
      
   
