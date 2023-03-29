@@ -9,15 +9,17 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-      -name: Hello World !
-       run: echo 'Hello World'
+    -name: Hello World !
+		 run: echo 'Hello World Ubuntu'
+     
        
   print_hello_world_Windows:
     name: Hello World Windows!
     runs-on: windows-latest
     needs: print_hello_world_Ubuntu
-  
+    
     steps:
-     -name: Hello World 2!
-      run: echo 'Hello World'
+    -name: Hello World 2!
+    -run: echo 'Hello World Windows'
      
+  
