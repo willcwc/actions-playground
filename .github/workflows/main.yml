@@ -3,13 +3,13 @@ name: "Hello World Workflow"
 on:
  push:
  
-jobs:
+ jobs:
   print_hello_wordl_Ubuntu:
-  name: Hello World Ubuntu!
-  runs-on: ubuntu-latest
-  
-  steps:
-  -name: Hello World
-   run: 'date'
+   name: Hello World Ubuntu!
+   runs-on: ubuntu-latest
+   
+   steps:
+   -name: Hello World
+    run:'date'
    
    
