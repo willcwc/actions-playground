@@ -1,13 +1,1 @@
 name: "Hello World Workflow"
-
-on:
-  push:
-  
-jobs:
-  print_hello_world_Ubuntu:
-  name: Hello World Ubuntu!
-  runs-on: ubuntu-latest
-    
-  steps:
-  -name: Hello World !
-   run: echo 'Hello World Ubuntu'
