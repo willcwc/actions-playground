@@ -7,9 +7,8 @@ on:
   print_hello_wordl_Ubuntu:
    name: Hello World Ubuntu!
    runs-on: ubuntu-latest
-   
    steps:
-   -name: Hello World
-    run: echo 'Teste'
+     -name: Hello World
+      run: echo 'Teste'
    
    
