@@ -13,3 +13,10 @@ jobs:
     
       - name: Checkout_Repositorio
         uses: actions/checkout@v3.3.0
+
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v3.1.2
+        with:
+          name: repositorio_do_will
+          path: .
+          retention_days: 15
